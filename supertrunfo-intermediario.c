@@ -68,10 +68,10 @@ int main(){
     printf("\nDados coletados com sucesso!!\n");
 
     Densidade1= pupulacao1/area1;
-    pibpercapta1= ((pib1*1000000000)  / pupulacao1);
+    pibpercapta1= ((pib1/pupulacao1)*1000000000);
     
     Densidade2= pupulacao2/area2;
-    pibpercapta2= ((pib2*1000000000) / pupulacao2);
+    pibpercapta2= ((pib2/pupulacao2)*1000000000);
     
     printf("\nCarta 01:\nEstado: %c \nCódigo: %s \nNome da Cidade: %s \nPopulação: %d \nÁrea: %.2f km² \nPIB: %.2f bilhões de reais \nNúmero de Pontos Turísticos: %d \nDensidade Populacional: %.2f  hab/km² \nPIB per Capita: %.2f reais\n",estado1,codigo_carta1,cidade1,pupulacao1,area1,pib1,pontos_turisticos1,Densidade1,pibpercapta1);
  
